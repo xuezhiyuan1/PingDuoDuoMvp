@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jo.jingou.view.search.SqlActivity">
+    <com.jo.jingou.view.search.mSearchLayout
+        android:id="@+id/msearchlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:search_baground="@drawable/search_title_baground_shap"
+        app:search_hint="商品名称"
+        ></com.jo.jingou.view.search.mSearchLayout>
+
+</LinearLayout>
